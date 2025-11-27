@@ -77,3 +77,25 @@
         }
     }
 }
+.account-wrap
+{
+    .box-wrap
+    {
+        .icon
+        {
+            img
+            {
+                max-width:31px;
+                max-height:31px;
+                 @media ($sm-1679) {
+                    max-width: 24px;
+                    max-height: 24px;
+                }
+                @media ($sm-767) {
+                    max-width: 20px;
+                    max-height: 20px;
+                }
+            }
+        }
+    }
+}
